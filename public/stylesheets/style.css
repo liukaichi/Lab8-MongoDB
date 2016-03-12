@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    overflow-y: scroll;
+    width:70%;
+    margin: 0 auto;
+}
+
+
+li
+{
+    color:blue;
+    list-style-type:none;
+    padding:6px;
+    border-bottom-style:solid;
+    border-bottom-color:lightgray;
+    border-bottom-width: thin;
+}
+
+.name
+{
+    color:gray;
+}
+
+.content
+{
+    padding-left: 10px;
+    padding-bottom:5px;
+}
+
+.timestamp
+{
+    float:right;
+}

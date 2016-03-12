@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+<form id="commentForm" action="submit()">
+  <label for="name">Name: </label><input type="text" id="Name" placeholder="Name"><br>
+  <label for="comment">comment: </label><input type="text" id="Comment" placeholder="Comment"><br>
+</form>
+
+<button id="serialize">Send!</button>
+<button id="clear">Clear</button>
+<div id="done"></div>
+<div id="comments"></div>
+</body>
+</html>
